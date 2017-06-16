@@ -1,0 +1,7 @@
+ wujunchuan commented on 14 Nov 2016 • edited
+
+@ccqgithub @errord
+
+Maybe node with higher version(6.9.1) built in inspect, and node-inspect don't update longer..
+solution:use node --inspect yourapp replace node-inspect & node --debug yourapp
+It worked for me.

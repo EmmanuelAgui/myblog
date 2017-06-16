@@ -1,0 +1,6 @@
+<%- include('header') %>
+//This is Home Page 这是主页啦～
+<% posts.forEach(function(post){ %>
+   <%- include('components/post-content',{post:post})%>
+<% }) %>
+<%- include('footer') %>
